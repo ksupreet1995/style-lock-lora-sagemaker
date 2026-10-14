@@ -591,3 +591,18 @@ outputs/        comparison sheets and results.json
 ```
 
 See `DATA_PREREQS.md` for what real training data needs to look like.
+
+## Licence
+
+This repository is licensed under **MIT-0** (MIT No Attribution). See
+[LICENSE](LICENSE). You may use, copy, modify and redistribute it freely,
+including commercially, without reproducing the notice.
+
+**The base model is licensed separately.** This code trains an adapter for
+Stable Diffusion XL 1.0, which is governed by
+[CreativeML Open RAIL++-M](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/blob/main/LICENSE.md)
+and carries use-based restrictions of its own. The licence on this repository
+does not extend to the base model weights or to images generated with them.
+Confirm the base model's current terms against your intended use before
+shipping generated assets — see
+[Why SDXL as the base model](#why-sdxl-as-the-base-model).
