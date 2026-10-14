@@ -1,0 +1,255 @@
+{
+  "dial": {
+    "0.0": 0.8270715077718099,
+    "0.3": 0.8642285664876302,
+    "0.6": 0.924955685933431,
+    "0.9": 0.9770123163859049,
+    "1.2": 0.6570059458414713
+  },
+  "ab": {
+    "base": 0.8664353688557943,
+    "lora": 0.9844919840494791
+  },
+  "_meta": {
+    "endpoint": "sdxl-lora-flatgem-demo",
+    "updated": "2026-10-11 16:21:29"
+  },
+  "drift": {
+    "base": [
+      0.7607647577921549,
+      0.9056336085001627,
+      0.9049917856852213,
+      0.8524303436279297,
+      0.9546887079874674
+    ],
+    "lora": [
+      0.9749148686726888,
+      0.9655211766560873,
+      0.9673026402791342,
+      0.971562385559082,
+      0.9357325236002604
+    ]
+  },
+  "novel": {
+    "a spell book": 0.9654986063639323,
+    "a treasure chest": 0.9579346974690756,
+    "a compass": 0.9570458730061849,
+    "a bell": 0.782520612080892
+  },
+  "holdout": {
+    "per_subject": [
+      {
+        "subject": "potion",
+        "gt_style_score": 0.9964,
+        "gt_coverage": 0.1252,
+        "lora_style_score": 0.9801,
+        "lora_palette_jsd": 0.0619,
+        "lora_palette_jsd_fg": 0.3915,
+        "lora_coverage": 0.1761,
+        "lora_coverage_error": 0.051,
+        "base_style_score": 0.8899,
+        "base_palette_jsd": 0.1715,
+        "base_palette_jsd_fg": 0.2029,
+        "base_coverage": 0.503,
+        "base_coverage_error": 0.3779
+      },
+      {
+        "subject": "sword",
+        "gt_style_score": 0.9963,
+        "gt_coverage": 0.1162,
+        "lora_style_score": 0.978,
+        "lora_palette_jsd": 0.0604,
+        "lora_palette_jsd_fg": 0.3694,
+        "lora_coverage": 0.1881,
+        "lora_coverage_error": 0.0719,
+        "base_style_score": 0.9235,
+        "base_palette_jsd": 0.108,
+        "base_palette_jsd_fg": 0.2068,
+        "base_coverage": 0.3816,
+        "base_coverage_error": 0.2654
+      },
+      {
+        "subject": "gem",
+        "gt_style_score": 0.9969,
+        "gt_coverage": 0.1718,
+        "lora_style_score": 0.9763,
+        "lora_palette_jsd": 0.7816,
+        "lora_palette_jsd_fg": 0.4324,
+        "lora_coverage": 0.991,
+        "lora_coverage_error": 0.8192,
+        "base_style_score": 0.696,
+        "base_palette_jsd": 0.3633,
+        "base_palette_jsd_fg": 0.2571,
+        "base_coverage": 0.7846,
+        "base_coverage_error": 0.6128
+      },
+      {
+        "subject": "key",
+        "gt_style_score": 0.9969,
+        "gt_coverage": 0.0864,
+        "lora_style_score": 0.9684,
+        "lora_palette_jsd": 0.6312,
+        "lora_palette_jsd_fg": 0.682,
+        "lora_coverage": 0.8622,
+        "lora_coverage_error": 0.7758,
+        "base_style_score": 0.7421,
+        "base_palette_jsd": 0.4687,
+        "base_palette_jsd_fg": 0.2707,
+        "base_coverage": 0.7944,
+        "base_coverage_error": 0.7079
+      },
+      {
+        "subject": "shield",
+        "gt_style_score": 0.9956,
+        "gt_coverage": 0.2334,
+        "lora_style_score": 0.9105,
+        "lora_palette_jsd": 0.7272,
+        "lora_palette_jsd_fg": 0.4071,
+        "lora_coverage": 0.9987,
+        "lora_coverage_error": 0.7653,
+        "base_style_score": 0.8175,
+        "base_palette_jsd": 0.5221,
+        "base_palette_jsd_fg": 0.3205,
+        "base_coverage": 0.9228,
+        "base_coverage_error": 0.6894
+      },
+      {
+        "subject": "coin stack",
+        "gt_style_score": 0.9954,
+        "gt_coverage": 0.1448,
+        "lora_style_score": 0.7266,
+        "lora_palette_jsd": 0.4727,
+        "lora_palette_jsd_fg": 0.4951,
+        "lora_coverage": 0.7846,
+        "lora_coverage_error": 0.6398,
+        "base_style_score": 0.6499,
+        "base_palette_jsd": 0.2991,
+        "base_palette_jsd_fg": 0.2825,
+        "base_coverage": 0.6809,
+        "base_coverage_error": 0.5361
+      }
+    ],
+    "summary": {
+      "n_holdout": 6,
+      "gt_style_score_mean": 0.9962,
+      "gt_coverage_mean": 0.1463,
+      "lora_style_score_mean": 0.9233,
+      "lora_palette_jsd_mean": 0.4558,
+      "lora_palette_jsd_fg_mean": 0.4629,
+      "lora_coverage_mean": 0.6668,
+      "lora_coverage_error_mean": 0.5205,
+      "base_style_score_mean": 0.7865,
+      "base_palette_jsd_mean": 0.3221,
+      "base_palette_jsd_fg_mean": 0.2567,
+      "base_coverage_mean": 0.6779,
+      "base_coverage_error_mean": 0.5316,
+      "style_score_improvement": 0.1368,
+      "coverage_error_improvement": 0.0111,
+      "verdict": "LoRA wins on style rule compliance (0.923 vs 0.786) but not on composition: mean subject coverage 0.667 vs ground truth 0.146. The mean hides a bimodal split - 2 of 6 subjects (potion, sword) are near-perfect with coverage error under 0.08, while 4 (gem, key, shield, coin stack) fill the canvas. Cause is NOT the training data: v1 training coverage was already 0.1463 with std 0.047, matching the holdout, and the preprocessing transform was a no-op (+0.002). The prompt-engineered baseline fails almost identically (0.678 vs 0.667), which identifies this as SDXL's own prior toward large frame-filling subjects rather than a LoRA regression.",
+      "composition_split": {
+        "near_perfect": [
+          "potion",
+          "sword"
+        ],
+        "failing": [
+          "gem",
+          "key",
+          "shield",
+          "coin stack"
+        ],
+        "note": "mean coverage error 0.521 is an average of two distinct modes"
+      }
+    }
+  },
+  "version_comparison": {
+    "per_subject": [
+      {
+        "subject": "potion",
+        "gt_coverage": 0.1252,
+        "v1_coverage": 0.1761,
+        "v2_coverage": 0.8334,
+        "v1_coverage_error": 0.051,
+        "v2_coverage_error": 0.7082,
+        "v1_style_score": 0.9801,
+        "v2_style_score": 0.6425,
+        "v1_palette_jsd_fg": 0.3915,
+        "v2_palette_jsd_fg": 0.2123
+      },
+      {
+        "subject": "sword",
+        "gt_coverage": 0.1162,
+        "v1_coverage": 0.1881,
+        "v2_coverage": 0.8306,
+        "v1_coverage_error": 0.0719,
+        "v2_coverage_error": 0.7144,
+        "v1_style_score": 0.978,
+        "v2_style_score": 0.6398,
+        "v1_palette_jsd_fg": 0.3694,
+        "v2_palette_jsd_fg": 0.1878
+      },
+      {
+        "subject": "gem",
+        "gt_coverage": 0.1718,
+        "v1_coverage": 0.991,
+        "v2_coverage": 0.8343,
+        "v1_coverage_error": 0.8192,
+        "v2_coverage_error": 0.6625,
+        "v1_style_score": 0.9763,
+        "v2_style_score": 0.6412,
+        "v1_palette_jsd_fg": 0.4324,
+        "v2_palette_jsd_fg": 0.3736
+      },
+      {
+        "subject": "key",
+        "gt_coverage": 0.0864,
+        "v1_coverage": 0.8622,
+        "v2_coverage": 0.8303,
+        "v1_coverage_error": 0.7758,
+        "v2_coverage_error": 0.7439,
+        "v1_style_score": 0.9684,
+        "v2_style_score": 0.6408,
+        "v1_palette_jsd_fg": 0.682,
+        "v2_palette_jsd_fg": 0.1915
+      },
+      {
+        "subject": "shield",
+        "gt_coverage": 0.2334,
+        "v1_coverage": 0.9987,
+        "v2_coverage": 0.8311,
+        "v1_coverage_error": 0.7653,
+        "v2_coverage_error": 0.5977,
+        "v1_style_score": 0.9105,
+        "v2_style_score": 0.6413,
+        "v1_palette_jsd_fg": 0.4071,
+        "v2_palette_jsd_fg": 0.3865
+      },
+      {
+        "subject": "coin stack",
+        "gt_coverage": 0.1448,
+        "v1_coverage": 0.7846,
+        "v2_coverage": 0.8364,
+        "v1_coverage_error": 0.6398,
+        "v2_coverage_error": 0.6916,
+        "v1_style_score": 0.7266,
+        "v2_style_score": 0.6399,
+        "v1_palette_jsd_fg": 0.4951,
+        "v2_palette_jsd_fg": 0.2941
+      }
+    ],
+    "summary": {
+      "n_holdout": 6,
+      "gt_coverage_mean": 0.1463,
+      "v1_coverage_mean": 0.6668,
+      "v2_coverage_mean": 0.8327,
+      "v1_coverage_error_mean": 0.5205,
+      "v2_coverage_error_mean": 0.6864,
+      "v1_style_score_mean": 0.9233,
+      "v2_style_score_mean": 0.6409,
+      "v1_palette_jsd_fg_mean": 0.4629,
+      "v2_palette_jsd_fg_mean": 0.2743,
+      "coverage_error_reduction": -0.1659,
+      "style_score_change": -0.2824,
+      "recommendation": "keep v1"
+    }
+  }
+}

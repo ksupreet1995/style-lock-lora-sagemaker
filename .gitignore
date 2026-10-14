@@ -1,0 +1,31 @@
+# Secrets and local config
+.env
+*.pem
+*.key
+credentials
+
+# Presigned URLs contain live auth tokens - never commit
+outputs/mlflow_link.txt
+*_link.txt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Logs and scratch output
+*.log
+outputs/raw/
+outputs/ablation/
+outputs/v2_diag/
+
+# Generated datasets - regenerate with scripts/01_generate_dataset.py
+data/train/
+data/train_v2/
+data/holdout/
+
+# Model artifacts
+*.safetensors
+*.tar.gz
